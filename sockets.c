@@ -6,9 +6,9 @@ int main()
 {
     // sock_fd returns the lowest file descriptor available
     int sock_fd = socket(domain, type, protocol);
-    if (sock_fd)
+    if (sock_fd == -1)
     {
-
+        printf("You got socked!\n");
     }
 
     return 0;
