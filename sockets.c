@@ -26,7 +26,7 @@ int main()
     int connect(socket_fd, );
     if ()
     {
-        
+        perror("Hull breach: connect()");
     }
 
 
