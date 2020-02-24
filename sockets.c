@@ -21,6 +21,7 @@ int main()
         exit(1);
     }
 
+    int connect();
 
 
     return 0;
