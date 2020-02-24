@@ -57,9 +57,9 @@ int main()
     char buffer[1024];
     memset(buffer, '\0', sizeof(buffer));
     r = recv(socket_fd, buffer, sizeof(buffer) - 1, 0);
-    if ()
+    if (r < sizeof(buffer) - 1)
     {
-        
+        // handle possible error
     }
 
 
