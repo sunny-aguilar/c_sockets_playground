@@ -22,6 +22,10 @@ int main()
     }
 
 
+    struct sockaddr_in serverAddress;
+
+
+
     // int connect(int socket_fc, struct sockaddr* address, size_t address_size);
     if (connect( socket_fd, (strucdt sockaddr*)&serverAddress, sizeof(serverAddress)) )
     {
