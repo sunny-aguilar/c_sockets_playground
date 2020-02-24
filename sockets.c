@@ -12,9 +12,9 @@
 int main()
 {
     // sock_fd returns the lowest file descriptor available
-    // int sock_fd = socket(int domain, int type, int protocol);  // socket syntax
-    int sock_fd = socket(AF_INET, SOCK_STREAM, 0);
-    if (sock_fd == -1)
+    // int socket_fd = socket(int domain, int type, int protocol);  // socket syntax
+    int socket_fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (socket_fd == -1)
     {
         printf("You got socked!\n");
     }
