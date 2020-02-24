@@ -38,7 +38,7 @@ int main()
     serverAddress.sin_addr.s_addr = inet_addr("192.168.1.1");
 
 
-    memcpy( (char*)&serverAddress.sin_addr.s_addr, (char*) );
+    memcpy( (char*)&serverAddress.sin_addr.s_addr, (char*)serverHostInfo->h_addr, serverHostInfo->h_length );
 
 
 
