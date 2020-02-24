@@ -1,7 +1,8 @@
 /********************************************************************************
 * Author:       Sandro Aguilar
 * Date:         February 23, 2020
-*
+* Description:  This short program is to test some of the common features of
+*               socket programming.
 *
 ********************************************************************************/
 
