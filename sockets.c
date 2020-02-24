@@ -23,7 +23,7 @@ int main()
 
 
     // int connect(int socket_fc, struct sockaddr* address, size_t address_size);
-    int connect();
+    int connect(socket_fd);
 
 
     return 0;
