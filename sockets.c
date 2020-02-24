@@ -26,6 +26,11 @@ int main()
     struct hostent* serverHostInfo;
 
     serverHostInfo = gethostbyname("www.oregonstate.edu");
+    if (serverHostInfo == NULL)
+    {
+        fprintf(stderr, "could not resolve server host name\n");
+        exit(1);
+    }
 
 
     serverAddress.sin_family = AF_INET;
