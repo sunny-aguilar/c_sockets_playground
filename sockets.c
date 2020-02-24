@@ -26,7 +26,7 @@ int main()
 
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = htons(7000);
-    serverAddress.sin_addr.s_addr = inet_addr();
+    serverAddress.sin_addr.s_addr = inet_addr("192.168.1.1");
 
 
 
