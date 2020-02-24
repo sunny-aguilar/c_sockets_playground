@@ -24,7 +24,7 @@ int main()
 
     // int connect(int socket_fc, struct sockaddr* address, size_t address_size);
     int connect(socket_fd, );
-    if ()
+    if (connect())
     {
         perror("Hull breach: connect()");
         exit(1);
