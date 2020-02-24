@@ -23,6 +23,7 @@ int main()
 
 
     struct sockaddr_in serverAddress;
+    struct hostent* serverHostInfo;
 
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = htons(7000);
