@@ -25,8 +25,8 @@ int main()
     struct sockaddr_in serverAddress;
     struct hostent* serverHostInfo;
 
+    serverHostInfo = gethostbyname("www.oregonstate.edu");
 
-    
 
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_port = htons(7000);
