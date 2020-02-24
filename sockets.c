@@ -24,6 +24,8 @@ int main()
 
     struct sockaddr_in serverAddress;
 
+    serverAddress.sin_family = AF_INET;
+
 
 
     // int connect(int socket_fc, struct sockaddr* address, size_t address_size);
