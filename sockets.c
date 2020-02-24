@@ -27,6 +27,7 @@ int main()
     if ()
     {
         perror("Hull breach: connect()");
+        exit(1);
     }
 
 
